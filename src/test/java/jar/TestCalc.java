@@ -16,4 +16,11 @@ class CalcTest{
 		int sum = myCalc.add(1, 4);
 		Assertions.assertEquals(sum, 5);
 	}
+	@Test
+	public void subtractTest(){
+		
+		Calc myCalc = new Calc();
+		int sub = myCalc.subtract(1, 4);
+		Assertions.assertEquals(sub, -3);
+	}
 }
